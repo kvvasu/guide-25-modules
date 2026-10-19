@@ -34,19 +34,19 @@ Only a closing excerpt of Module 16 is visible. The full module body, its code b
 
 **MISSING FROM HISTORY**
 
-Only the beginning of the Module 17 proof table and the verification text are visible. The full module body is not present.
+The full Module 17 body, its code blocks, its error table, its proof table, and its design note are not present in the visible conversation history.
 
 ## Module 18. Flow Designer depth
 
 **MISSING FROM HISTORY**
 
-Only the beginning of the Module 18 proof table and the verification text are visible. The full module body is not present.
+The full Module 18 body, its code blocks, its error table, its proof table, and its design note are not present in the visible conversation history.
 
 ## Module 19. Security depth
 
 **MISSING FROM HISTORY**
 
-Only the beginning of the Module 19 proof table and the verification text are visible. The full module body is not present.
+The full Module 19 body, its code blocks, its error table, its proof table, and its design note are not present in the visible conversation history.
 
 ## Module 20. Integration depth
 

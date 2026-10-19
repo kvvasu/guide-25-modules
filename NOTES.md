@@ -8,10 +8,16 @@
 | 14 | MISSING FROM HISTORY | Full body, proof table, code blocks, error table, and design note unavailable. |
 | 15 | MISSING FROM HISTORY | Full body, proof table, code blocks, error table, and design note unavailable. |
 | 16 | MISSING FROM HISTORY | Only a closing excerpt was visible. Full body and supporting tables unavailable. |
-| 17 | MISSING FROM HISTORY | Only the beginning of the proof table and verification text were visible. Full body unavailable. Claim text was not recovered from chat history. |
-| 18 | MISSING FROM HISTORY | Only the beginning of the proof table and verification text were visible. Full body unavailable. Claim text was not recovered from chat history. |
-| 19 | MISSING FROM HISTORY | Only the beginning of the proof table and verification text were visible. Full body unavailable. Claim text was not recovered from chat history. |
+| 17 | MISSING FROM HISTORY | Full body, proof table, code blocks, error table, and design note not present in visible conversation history. |
+| 18 | MISSING FROM HISTORY | Full body, proof table, code blocks, error table, and design note not present in visible conversation history. |
+| 19 | MISSING FROM HISTORY | Full body, proof table, code blocks, error table, and design note not present in visible conversation history. |
 | 20–25 | Present | Assembled from the text generated in this session. |
+
+| 14 | MISSING FROM HISTORY | Full body, proof table, code blocks, error table, and design note unavailable. |
+| 15 | MISSING FROM HISTORY | Full body, proof table, code blocks, error table, and design note unavailable. |
+| 16 | MISSING FROM HISTORY | Full body, proof table, code blocks, error table, and design note unavailable. |
+
+| 1–13 | Out of scope | Never generated in this session. Not included and must not be inferred. |
 
 ## Missing history
 
