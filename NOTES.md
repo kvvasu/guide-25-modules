@@ -8,16 +8,16 @@
 | 14 | MISSING FROM HISTORY | Full body, proof table, code blocks, error table, and design note unavailable. |
 | 15 | MISSING FROM HISTORY | Full body, proof table, code blocks, error table, and design note unavailable. |
 | 16 | MISSING FROM HISTORY | Only a closing excerpt was visible. Full body and supporting tables unavailable. |
-| 17 | MISSING FROM HISTORY | Only the beginning of the proof table and verification text were visible. Full body unavailable. |
-| 18 | MISSING FROM HISTORY | Only the beginning of the proof table and verification text were visible. Full body unavailable. |
-| 19 | MISSING FROM HISTORY | Only the beginning of the proof table and verification text were visible. Full body unavailable. |
+| 17 | MISSING FROM HISTORY | Only the beginning of the proof table and verification text were visible. Full body unavailable. Claim text was not recovered from chat history. |
+| 18 | MISSING FROM HISTORY | Only the beginning of the proof table and verification text were visible. Full body unavailable. Claim text was not recovered from chat history. |
+| 19 | MISSING FROM HISTORY | Only the beginning of the proof table and verification text were visible. Full body unavailable. Claim text was not recovered from chat history. |
 | 20–25 | Present | Assembled from the text generated in this session. |
 
 ## Missing history
 
 - The proof table for Modules 20–22 is missing. The assembled file states this explicitly instead of reconstructing rows.
 - Complete proof tables for Modules 14–19 are missing.
-- The original Module 14–19 text cannot be recovered from the visible conversation history. No attempt was made to invent it.
+- The original Module 14–19 text was examined from the conversation history. Only the module headings and the beginning of each proof table (stating that only the beginning is visible) are present; the full module bodies, proof tables, code blocks, error tables, design notes, and all supporting text could not be recovered.
 - Some documentation URLs cited in prose were visible during research but were not written into the module text; the audit counts 84 named-page claims with no inline URL.
 
 ## Reconstructed or flagged material
