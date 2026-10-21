@@ -232,3 +232,42 @@ inside the archive equal the on-disk files.
 
 Archive names and sizes are reported in the chat reply, not stored here: an archive cannot
 contain its own hash. What this file records is the content state of combined-25.md.
+## Rounds 2-5 and branch landing (ts=20261021T141312)
+
+Rounds 2-5 resolved the 77 named-page claims in Modules 21-24 (plus 16 in Module 20 in Round 1).
+
+Per round, applied / method / quote-check:
+  Round 1  M20  16 claims: 15 cited with URL+quote, 1 deleted (X-Idempotency-Key, no source exists)
+  Round 2  M21  17 claims: 16 cited with URL+quote, 1 deleted (blank-dashboard thread absent from cache)
+  Round 3  M22  25 claims: 23 cited with URL+quote, 2 reworded (see below)
+  Round 4  M23  10 claims: 9 cited with URL+quote, 1 bullet deleted (Tech Support article not fetched)
+  Round 5  M24  25 claims: 20 cited with URL ONLY (no quote), 3 reworded, 1 bullet deleted
+
+Round 5 is weaker than rounds 1-4: the M24 citations carry the page URL but no verbatim
+quote, so M24 contributes 0 audited spans. Treat M24 as "citation attached, claim text
+not machine-verified".
+
+Rewordings, all because the named source could not be fetched:
+  M22 L1246 "not fetched from a Community thread" -> "not fetched from any community post"
+  M24 L1805 "as a substitute for the SDK docs" -> "as a substitute for the SDK reference"
+  M24 L1845 December-thread sentence -> plain statement of the upgrade-safe/hostile patterns
+  M23 L1625 "The Zurich grouped-list article is relevant here" -> "The grouped-list evidence is relevant here"
+  M23 L1685 "The Community article states ... in Zurich" -> release-notes + system-property wording
+Deleted outright: M22 L1140 first sentence (blank-dashboard thread), M23 L1685 empty bullet
+after its only sentence was removed, M24 L1867 bullet that existed only to carry the December thread.
+
+Final verification after all rounds:
+  check_r5b_*.txt  spans 397, all PASS. 1-13: 300/300. 14-25: 97/97.
+  M20 27 spans, M21 26, M22 27, M23 17, M24 0.
+  claims.20261021T141132.csv  9 claims remain (M0 1 | M2 4 | M7 1 | M8 1 | M9 1 | M12 1).
+  These 9 are provenance/disclaimer notes ("No fetched page states...", "Removed, kept visible...",
+  "Dropped/honestly flagged..."), not sourced assertions. Left in place: deleting them would remove
+  the record of what was retracted.
+
+Branch landing:
+  git checkout -b guide-25-modules  (from main 4965b306)
+  commit 60f5c77 "Add the audited 25-module developer guide and its audit state"
+  2 files: combined-25.md (2054 lines) + STATE-audit.md
+  Not pushed. main untouched.
+
+File state: combined-25.md 2055 lines (split), sha256 3e28eb93bff7ec533a0d6e9bcd2fabfd0b70fe8d07b4c44c0d471dea0a133f36.
